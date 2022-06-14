@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluraDev.Api", "AluraDev.Api\AluraDev.Api.csproj", "{47CF8696-D300-46A0-8D21-414BCC080EC1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CDF6EA3A-1E19-4923-84E3-1C9E3D65FEFF} = {CDF6EA3A-1E19-4923-84E3-1C9E3D65FEFF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluraDev.Domain", "AluraDev.Domain\AluraDev.Domain.csproj", "{004D3D0B-F489-49F9-BDD1-6DB9275909DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluraDev.Data", "AluraDev.Database\AluraDev.Data.csproj", "{CDF6EA3A-1E19-4923-84E3-1C9E3D65FEFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluraDev.Services", "AluraDev.Services\AluraDev.Services.csproj", "{E83F7294-3BCC-4E8A-AE5D-EABB6EE03A69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluraDev.Repository", "AluraDev.Repository\AluraDev.Repository.csproj", "{A3B83FAB-37BD-438F-9247-2929D1921117}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47CF8696-D300-46A0-8D21-414BCC080EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CF8696-D300-46A0-8D21-414BCC080EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CF8696-D300-46A0-8D21-414BCC080EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CF8696-D300-46A0-8D21-414BCC080EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004D3D0B-F489-49F9-BDD1-6DB9275909DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004D3D0B-F489-49F9-BDD1-6DB9275909DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004D3D0B-F489-49F9-BDD1-6DB9275909DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004D3D0B-F489-49F9-BDD1-6DB9275909DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF6EA3A-1E19-4923-84E3-1C9E3D65FEFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF6EA3A-1E19-4923-84E3-1C9E3D65FEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF6EA3A-1E19-4923-84E3-1C9E3D65FEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF6EA3A-1E19-4923-84E3-1C9E3D65FEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83F7294-3BCC-4E8A-AE5D-EABB6EE03A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83F7294-3BCC-4E8A-AE5D-EABB6EE03A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83F7294-3BCC-4E8A-AE5D-EABB6EE03A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83F7294-3BCC-4E8A-AE5D-EABB6EE03A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B83FAB-37BD-438F-9247-2929D1921117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B83FAB-37BD-438F-9247-2929D1921117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B83FAB-37BD-438F-9247-2929D1921117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B83FAB-37BD-438F-9247-2929D1921117}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07E9186A-6FE0-4FFD-B961-5BE756CBA3F0}
+	EndGlobalSection
+EndGlobal
